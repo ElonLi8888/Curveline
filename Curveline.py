@@ -13,7 +13,7 @@ ROI_RIGHT = 790
 # Smoothing settings
 smoothed_midpoints = None
 SMOOTHING_ALPHA = 0.05
-NUM_POINTS = 50  # Fixed number of points for smoothing consistency
+NUM_POINTS = 70  # Fixed number of points for smoothing consistency
 
 
 
