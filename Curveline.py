@@ -13,7 +13,7 @@ ROI_RIGHT = 790
 # Smoothing settings
 smoothed_midpoints = None
 SMOOTHING_ALPHA = 0.05
-NUM_POINTS = 70  # Fixed number of points for smoothing consistency
+NUM_POINTS = 60  # Fixed number of points for smoothing consistency
 
 
 
@@ -97,7 +97,7 @@ def detect_curves(frame):
 
    # Find contours
    contours, _ = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-   cv2.drawContours(roi, contours, -1, (0, 255, 0), 2)
+   cv2.drawContours(roi, contours, -1, (0, 0, 255), 2)
 
 
    # Select the two largest contours
